@@ -1,0 +1,169 @@
+* {
+    font-family: sans-serif;
+}
+
+header {
+    background: #D2FF72;
+    padding: 10px;
+    border-radius: 2%;
+    border-radius: flex;
+    justify-items: center;
+}
+.Tangamandapio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    position: relative;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(73, 73, 73, 0.691);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 1s;
+}
+.content:hover{
+    opacity: 1;
+}
+#Logotipo{
+    font-size: 90px;
+    color: azure;
+}
+#Lema{
+    font-size: 40px;
+    color: azure;
+}
+#carShop{
+    background-color: #FF0000;
+    border-color: transparent;
+    border-radius: 70%;
+    float: right;
+    height: auto;
+}
+
+#Info{
+    font-size: 25px;
+}
+.textInfo {
+    display: flex;
+}
+.mainText {
+    padding: 10px;
+    width: 40%;
+    margin: 70px;
+}
+
+
+.products {
+    display: flex;
+    justify-content: space-around;
+}
+.add{
+    background-color: transparent;
+    border-color: transparent;
+}
+#Guayaba {
+    background: #FFE700;
+    width: 20%;
+    margin: 20px;
+    border-radius: 12%;
+}
+#Guayaba:hover {
+    background: #fcce2a88;
+}
+#Sandia {
+    background: #FFE700;
+    width: 20%;
+    margin: 20px;
+    border-radius: 12%;
+}
+#Sandia:hover {
+    background: #fcce2a88;
+}
+#Papaya {
+    background: #FFE700;
+    width: 20%;
+    margin: 20px;
+    border-radius: 12%;
+}
+#Papaya:hover {
+    background: #fcce2a88;
+}
+#Kiwi {
+    background: #FFE700;
+    width: 20%;
+    margin: 20px;
+    border-radius: 12%;
+}
+#Kiwi:hover {
+    background: #fcce2a88;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #D2FF72;
+    padding: 10px;
+    border-radius: 2%;
+}
+
+
+
+#cart {
+    margin: 20px;
+    padding: 20px;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.cart-item span {
+    font-size: 16px;
+}
+
+.cart-item button.remove {
+    padding: 5px 10px;
+    background-color: #FF6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-item button.remove:hover {
+    background-color: #FF4500;
+}
+
+#cart-total {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#checkout {
+    padding: 10px 20px;
+    background-color: #28A745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#checkout:hover {
+    background-color: #218838;
+}

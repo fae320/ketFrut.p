@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Fruteria</title>
+    <link rel="stylesheet" href="css/styleIndex.css">
+    <script src="js/cart.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="Tangamandapio">
+            <div class="image">
+                <img src="img/Encabezado.png">
+                <div class="content">
+                    <div id="Logotipo"><p>KetFrut</p></div>
+                    <div id="Lema"><p>Recorriendo campos y casas</p></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div><p id="Info"><b><u>Información</u></b></p></div>
+    <section class="textInfo">
+        <h3>
+            <p class="mainText">
+                <b>¿Quiénes Somos?</b> <br>
+                Somos una empresa dedicada a la contribuición y exportación de frutas a lo largo y ancho del pais. <br>
+            </p>
+        </h3>
+
+        <h3>
+            <p class="mainText">
+                <b>¿Calidad?</b> <br>
+                La calidad de nuestras frutas es buena debido a que nuestros cultivos totalmente organicos.<br>
+            </p>
+        </h3>
+
+        <h3>
+            <p class="mainText">
+                <b>¿Reconocimiento?</b> <br>
+                somos reconocidos por dar un excelente servicio a nuestros clientes y ser muy estrictos<br>
+                con la protección de nuestros productos. <br>
+            </p>
+        </h3>
+    </section>
+
+    <section class="products">
+        <div id="Guayaba">
+            <h2>Producto #1 <b>Guayaba</b></h2>
+            <img src="img/Guayaba.png" alt="Guayaba">
+            <button class="add" data-id="1" data-name="Guayaba" data-price="4000">
+                <img src="img/add.png">
+            </button>
+            <h3><p>$4,000</p></h3>
+        </div>
+    
+        <div id="Sandia">
+            <h2>Producto #2 <b>Sandía</b></h2>
+            <img src="img/Sandia.png" alt="Sandía">
+            <button class="add" data-id="2" data-name="Sandía" data-price="7000">
+                <img src="img/add.png">
+            </button>
+            <h3><p>$7,000</p></h3>
+        </div>
+    
+        <div id="Papaya">
+            <h2>Producto #3 <b>Papaya</b></h2>
+            <img src="img/Papaya.png" alt="Papaya">
+            <button class="add" data-id="3" data-name="Papaya" data-price="3000">
+                <img src="img/add.png">
+            </button>
+            <h3><p>$3,000</p></h3>
+        </div>
+    
+        <div id="Kiwi">
+            <h2>Producto #4 <b>Kiwi</b></h2>
+            <img src="img/Kiwi.png" alt="Kiwi">
+            <button class="add" data-id="4" data-name="Kiwi" data-price="5000">
+                <img src="img/add.png">
+            </button>
+            <h3><p>$5,000</p></h3>
+        </div>
+    </section>
+    
+    
+    <section id="cart">
+        <h2>Carrito de Compras</h2>
+        <div id="cart-items"></div>
+        <p id="cart-total">Total: $0</p>
+        <button id="checkout">Pagar</button>
+    </section>    
+    
+    <footer>
+        <img src="img/Fruits.png">
+        <h3 id="Contact"><b>KetFrut</b></h3>
+        <section id="Creadores">
+            <p>
+                <b>
+                    Carlos Andrés Peña Peña <br>
+                    Faely Yobana Nez Fiole <br>
+                    Alejandro Molano Cerón <br>
+                </b>
+            </p>
+        </section>
+    </footer>
+</body>
+
+</html>
